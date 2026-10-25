@@ -1,0 +1,13 @@
+###
+GET http://127.0.0.1:8000/JobListView/
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/PeopleListView/
+Content-Type: application/json
+
+{
+    "name":"Adi Kesav M",
+    "age":21,
+    "Qualification":"UG"
+}
